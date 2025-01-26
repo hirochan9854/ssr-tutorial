@@ -1,10 +1,12 @@
+import profile from "./assets/profile.jpg";
+
 function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
       <div className="bg-white shadow-xl rounded-lg max-w-md w-full p-8 text-center">
         <div className="relative mb-6">
           <img
-            src="/profile.jpg"
+            src={profile}
             alt="Profile"
             className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-blue-500"
           />
