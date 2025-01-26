@@ -1,4 +1,5 @@
 import React from "react";
+import profile from "./assets/profile.jpg";
 
 const App: React.FC = () => {
   return (
@@ -6,7 +7,7 @@ const App: React.FC = () => {
       <div className="bg-white shadow-xl rounded-lg max-w-md w-full p-8 text-center">
         <div className="relative mb-6">
           <img
-            src="images/profile.jpg"
+            src={profile}
             alt="Profile"
             className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-blue-500"
           />
